@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IsDv6TVQdWOLiTreM5KL/1CbSYqe3IyAqC5dtIeA4+A=",
+  "Source": "DaprShop.Recommendation.API",
+  "BasePath": "_content/DaprShop.Recommendation.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

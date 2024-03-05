@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anilguzel/Documents/Development/dapr-sandbox/DaprShop.Recommendation.API/DaprShop.Recommendation.API.csproj": {}
+  },
+  "projects": {
+    "/Users/anilguzel/Documents/Development/dapr-sandbox/DaprShop.Recommendation.API/DaprShop.Recommendation.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anilguzel/Documents/Development/dapr-sandbox/DaprShop.Recommendation.API/DaprShop.Recommendation.API.csproj",
+        "projectName": "DaprShop.Recommendation.API",
+        "projectPath": "/Users/anilguzel/Documents/Development/dapr-sandbox/DaprShop.Recommendation.API/DaprShop.Recommendation.API.csproj",
+        "packagesPath": "/Users/anilguzel/.nuget/packages/",
+        "outputPath": "/Users/anilguzel/Documents/Development/dapr-sandbox/DaprShop.Recommendation.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anilguzel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "dapr.client": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

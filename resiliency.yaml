@@ -1,0 +1,26 @@
+apiVersion: dapr.io/v1alpha1
+kind: Resiliency
+metadata:
+  name: myresiliency
+scopes:
+  # optionally scope the policy to specific apps
+spec:
+  policies:
+    timeouts:
+      # timeout policy definitions
+
+    retries:
+      # retry policy definitions
+
+    circuitBreakers:
+      # circuit breaker policy definitions
+
+  targets:
+    apps:
+      # apps and their applied policies here
+
+    actors:
+      # actor types and their applied policies here
+
+    components:
+      # components and their applied policies here
